@@ -1,9 +1,9 @@
 package uj.jwzp.w2.e3;
 
 public class Customer {
-    private long id;
-    private String name;
-    private String address;
+    private final long id;
+    private final String name;
+    private final String address;
 
     public Customer(long id, String name, String address) {
         this.id = id;
@@ -15,23 +15,11 @@ public class Customer {
         return id;
     }
 
-    public void setId(long id) {
-        this.id = id;
-    }
-
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getAddress() {
         return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
     }
 }

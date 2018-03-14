@@ -35,11 +35,7 @@ dependencies {
             'org.assertj:assertj-core:3.9.0',
 
             //Mocks: Mockito
-            'org.mockito:mockito-core:2.8.9',
-
-            //Power mock
-            'org.powermock:powermock-api-mockito2:1.7.3',
-            'org.powermock:powermock-module-junit4:1.7.3'
+            'org.mockito:mockito-core:2.8.9'
     )
 }
 
